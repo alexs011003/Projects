@@ -261,6 +261,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf4f17fd175c4c0ea94fb489fc94e63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Drive
+  forwardSpeed: 10
+  nitroBoost: 10
+  rotateSpeed: 20
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
