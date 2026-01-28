@@ -202,6 +202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6496daefff534b2fa50cd5d49629486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Move
+  speed: 10
+  rotSpeed: 80
+  boostSpeed: 50
 --- !u!65 &526886876
 BoxCollider:
   m_ObjectHideFlags: 0
