@@ -32,7 +32,7 @@ public class Drive : MonoBehaviour
     void CarMove()
     {
         //Car move forward and backward
-        float forwardInput = Input.GetAxis("Vertical");
+        float forwardInput = Input.GetAxisRaw("Vertical");
         forwardInput = forwardInput * forwardSpeed;
         this.transform.Translate(Vector3.forward * Time.deltaTime  * forwardInput);
 
