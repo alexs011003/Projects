@@ -204,7 +204,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Move
   speed: 10
   rotSpeed: 80
-  boostSpeed: 50
+  boostSpeed: 20
+  acceleration: 20
+  maxSpeed: 80
+  deceleration: 20
 --- !u!65 &526886876
 BoxCollider:
   m_ObjectHideFlags: 0
